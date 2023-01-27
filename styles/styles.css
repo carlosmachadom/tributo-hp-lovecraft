@@ -1,0 +1,34 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel+Decorative:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap'); */
+
+:root {
+    /* Layout Colors */
+    --dark-blue: #162538;
+    --middle-blue: #41689b;
+    --clear-blue: #84a0c5;
+
+    --main-aqua: #41bfb3;
+    --secondary-aqua: #57f2c6;
+
+    /* Fonts */
+    --main-title-font: 'Cinzel Decorative', cursive;
+    --main-general-font: 'Open Sans', sans-serif;
+
+    /* Font colors */
+    --black: #11233c;
+    --white: #e7f7f2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
